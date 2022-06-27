@@ -1,5 +1,4 @@
-- Ejemplo de un archivo de network:
-```
+
 #Create VPC in us-east-1
 resource "aws_vpc" "vpc_master" {
   cidr_block = "10.0.0.0/16"
@@ -48,4 +47,3 @@ resource "aws_security_group" "sg" {
     Name = "${terraform.workspace}-securitygroup"
   }
 }
-```
